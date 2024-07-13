@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import Interface from '../../../components/add';
+import Interface from './components/add.js';
 
 
 import{useState} from 'react'
