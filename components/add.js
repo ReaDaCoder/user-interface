@@ -1,6 +1,6 @@
 function Interface(){
     return(
-        <di>
+        <div >
             <h1>Life Planning, Making Easy to Turn Dreams a Reality.</h1>
             <h3>Get Exclusive offers ob purchase of any plans</h3>
             <input type="text" placeholder="Your Email"/>
@@ -17,6 +17,8 @@ function Interface(){
                     <div>Customer Story</div>
                 </footer>
             </div>
-        </di>
+        </div>
     );
 }
+
+export default Interface
