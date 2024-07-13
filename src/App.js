@@ -1,7 +1,9 @@
 import logo from './logo.svg';
 import './App.css';
-import Interface from '.componets/add';
+import Interface from '../../../components/add';
 
+
+import{useState} from 'react'
 function App() {
   return (
     <div className="container">
