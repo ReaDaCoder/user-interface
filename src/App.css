@@ -10,3 +10,31 @@ body{
   justify-content: center;
   height: 500px;
 }
+
+.box-grid{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.box{
+  width:150px;
+  height: 150px;
+  border-radius: 20px;
+}
+
+
+#box1{
+  background-color: #5ECCA0;
+}
+
+#box2{
+  background-color: #0A0A0A;
+}
+
+#box3{
+  background-color: #CB9BFA;
+}
+
+#box4{
+  background-color:#F8FD91 ;
+}
