@@ -36,9 +36,11 @@ body{
   justify-content: center;
   height: 500px;
 }
+
 header{
   margin-bottom: 40px;
 }
+
 h1{
   margin-bottom: 15px;
   font-size: 50px;
@@ -57,7 +59,7 @@ h4{
 
  p{
   font-size: 9px;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
  }
 
 input{
@@ -71,7 +73,7 @@ input{
 .percentage{
   font-family: sans-serif, Roboto, arial;
   font-weight:700;
-  font-size: 25px;
+  font-size: 23px;
   margin-top: 15px;
 }
 
@@ -98,6 +100,7 @@ margin-left: 20px;
   display: flex;
   justify-content: space-evenly;
   margin-top: 35px;
+  background-color: aqua;
 }
 
 .box{
@@ -105,7 +108,7 @@ margin-left: 20px;
   height: 150px;
   border-radius: 20px;
   margin-bottom: 45px;
-  padding:35px;
+  padding:50px;
   line-height: 20px;
 }
 
@@ -136,20 +139,17 @@ img{
 .bottom-arrow{
   background-color: #FFFFFF;
 }
+.blackbox{
+  background-color: #FFFFFF;
+  color: #202020;
+}
+.wrapper{
+  display:grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+  margin-top: 5rem;
+}
 
 footer{
-  margin-top: 65px;
 }
 
-@media(max-width:500px){
-h1{
-  text-align: center;
-}
-.box-grid{
-  grid-template-areas:
-  "box1",
-  "box3"
-  "box4"
-  ;
-}
-}
