@@ -54,6 +54,7 @@ function Interface(){
                 <hr/>
                     <div>Terms Policy</div>
                     <div>Customer Story</div>
+                    <img src="/media/arrow-square-right.png" class="bottom-arrow"/>
                 </footer>
         </div>
     );

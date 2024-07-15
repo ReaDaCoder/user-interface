@@ -130,6 +130,9 @@ img{
   color: #FFFFFF;
   border-radius: 10px;
 }
+.bottom-arrow{
+  background-color: #FFFFFF;
+}
 
 footer{
   margin-top: 65px;
