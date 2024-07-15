@@ -2,8 +2,17 @@
   margin:0;
   padding:0;
 }
+.back{
+  margin: 60px;
+}
 body{
   background-color: #FFFFFF;
+}
+.lyf{
+  font-family: "Crimson Text" sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  float:left;
 }
 
 .login{
@@ -48,26 +57,47 @@ h4{
 
  p{
   font-size: 9px;
+  margin-bottom: 20px;
  }
 
 input{
   background-color: #FFFFFF;
   border-radius: 20px;
-  padding: 17px;
-  margin-left: 30px;
-}
-.signbtn{
-border-radius:20px ;
-padding: 17px;
-background-color: #0A0A0A;
-color: #FFFFFF;
-margin-right: 25px;
+  width:300px;
+  height: 45px;
+  margin-right: 20px;         
 }
 
+.percentage{
+  font-family: sans-serif, Roboto, arial;
+  font-weight:700;
+  font-size: 25px;
+  margin-top: 15px;
+}
+
+
+.signbtn{
+border-radius:20px ;
+padding: 15px;
+background-color: #0A0A0A;
+color: #FFFFFF;
+margin-left: 20px;
+}
+.explore{
+  float:right;
+  font-weight: 200;
+
+}
+
+.featured{
+  float:left;
+  font-weight: 200;
+}
 
 .box-grid{
   display: flex;
   justify-content: space-evenly;
+  margin-top: 35px;
 }
 
 .box{
@@ -75,7 +105,7 @@ margin-right: 25px;
   height: 150px;
   border-radius: 20px;
   margin-bottom: 45px;
-  padding:20px;
+  padding:35px;
   line-height: 20px;
 }
 
@@ -95,4 +125,31 @@ margin-right: 25px;
 
 #box4{
   background-color:#F8FD91 ;
+}
+
+img{
+  width: 30px;
+  background-color: #202020;
+  color: #FFFFFF;
+  border-radius: 10px;
+}
+.bottom-arrow{
+  background-color: #FFFFFF;
+}
+
+footer{
+  margin-top: 65px;
+}
+
+@media(max-width:500px){
+h1{
+  text-align: center;
+}
+.box-grid{
+  grid-template-areas:
+  "box1",
+  "box3"
+  "box4"
+  ;
+}
 }
