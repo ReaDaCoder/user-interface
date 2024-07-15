@@ -85,10 +85,13 @@ margin-left: 20px;
 }
 .explore{
   float:right;
+  font-weight: 200;
+
 }
 
 .featured{
   float:left;
+  font-weight: 200;
 }
 
 .box-grid{
@@ -141,5 +144,12 @@ footer{
 @media(max-width:500px){
 h1{
   text-align: center;
+}
+.box-grid{
+  grid-template-areas:
+  "box1",
+  "box3"
+  "box4"
+  ;
 }
 }

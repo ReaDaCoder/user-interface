@@ -41,7 +41,7 @@ function Interface(){
                     <div class="percentage">11.20%</div>
                     <img src="/media/arrow-square-right.png"/>
                 </div>
-                <div class="box" id="box4">
+                <div class="col-md-4 box" id="box4">
                     <div>Plans</div>
                     <h5>Fixed Income</h5>
                     <p>Get multiple benefits, and a lumpsum option & Guaranteed Returns</p>
