@@ -13,6 +13,7 @@ body{
   font-weight: bold;
   font-style: normal;
   float:left;
+  line-height: 40px;
 }
 
 .login{
@@ -21,6 +22,8 @@ body{
   background-color:#FFFFFF;
   color:#0A0A0A;
   margin-right: 25px;
+  position:relative;
+  left: 300px;
 }
 
 .getstarted{
@@ -29,6 +32,8 @@ body{
   background-color:#0A0A0A;
   color:#FFFFFF;
   margin-right: 25px;
+  position: relative;
+  left:350px;
 }
 
 .container{
